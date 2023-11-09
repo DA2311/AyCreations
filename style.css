@@ -362,7 +362,7 @@ section {
 
 
 @media (max-width: 1240px) {
-    .about {
+    .about-context {
         grid-template-columns: 1fr;
         gap: 2rem;
         text-align: center;
