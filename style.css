@@ -46,12 +46,10 @@ header {
     font-size: 36px;
     color: var(--text-color);   
     font-weight: 600;
-    margin-left: 2px;
+
 
 }
-.logo1{
-    margin-left: 300px;
-}
+
 
 span {
     color: var(--main-color);
