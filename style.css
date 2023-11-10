@@ -30,7 +30,7 @@ body {
 header {
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 80px;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -38,15 +38,19 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0px 75%;
-
+    background-color: #22282f;
     transition: all .50s ease;
 }
 
 .logo {
     font-size: 36px;
-    color: var(--text-color);
+    color: var(--text-color);   
     font-weight: 600;
+    margin-left: 2px;
 
+}
+.logo1{
+    margin-left: 300px;
 }
 
 span {
@@ -174,11 +178,11 @@ section {
 }
 
 .contact {
-    height: 400px;
+    height:400px;
     width: 100%;
-    background: url(Assets/A.jpg);
+    background: url(Assets/contacts.jpg);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no repeat;
     display: flex;
     align-items: center;
