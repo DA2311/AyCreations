@@ -27,6 +27,7 @@ body {
     background: var(--bg-color);
 }
 
+
 header {
     position: fixed;
     width: 100%;
@@ -41,13 +42,17 @@ header {
     background-color: #22282f;
     transition: all .50s ease;
 }
+header img{
+    margin-top: 50px;
+}
 
 .logo {
     font-size: 36px;
     color: var(--text-color);   
     font-weight: 600;
-
-
+}
+.hero img{
+    margin-top: 70px;
 }
 
 
