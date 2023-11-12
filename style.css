@@ -59,6 +59,9 @@ header img{
 span {
     color: var(--main-color);
 }
+span2{
+    color:aqua;
+}
 
 .navlist {
     display: flex;
@@ -127,11 +130,11 @@ section {
 
 .services-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-    gap: 40px;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(375px, auto));
+    gap: 20px;
+    align-items:baseline;
     justify-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: justify;
 }
 
