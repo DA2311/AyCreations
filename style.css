@@ -131,7 +131,7 @@ section {
 .services-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(375px, auto));
-    gap: 20px;
+    gap: 50px;
     align-items:baseline;
     justify-items: center;
     margin-top: 15px;
