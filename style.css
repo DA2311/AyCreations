@@ -42,16 +42,18 @@ header {
     background-color: #22282f;
     transition: all .50s ease;
 }
-header img{
+
+header img {
     margin-top: 50px;
 }
 
 .logo {
     font-size: 36px;
-    color: var(--text-color);   
+    color: var(--text-color);
     font-weight: 600;
 }
-.hero img{
+
+.hero img {
     margin-top: 70px;
 }
 
@@ -59,8 +61,9 @@ header img{
 span {
     color: var(--main-color);
 }
-span2{
-    color:aqua;
+
+span2 {
+    color: aqua;
 }
 
 .navlist {
@@ -132,7 +135,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(375px, auto));
     gap: 50px;
-    align-items:baseline;
+    align-items: baseline;
     justify-items: center;
     margin-top: 15px;
     text-align: justify;
@@ -184,11 +187,11 @@ section {
 }
 
 .contact {
-    height:400px;
+    height: 400px;
     width: 100%;
     background: url(Assets/contacts.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no repeat;
     display: flex;
     align-items: center;
@@ -197,6 +200,7 @@ section {
 
 .footer {
     padding: 22px;
+    height: 50px;
     background: var(--second-bg-color);
     display: flex;
     align-items: center;
@@ -324,13 +328,22 @@ section {
     .main-content p {
         width: 100%;
     }
+
     .hero {
+        background-color: black;
+    }
+
+    .contact {
         background-color: black;
     }
 }
 
 @media(max-width: 470px) {
     .hero {
+        background-color: black;
+    }
+
+    .contact {
         background-color: black;
     }
 
