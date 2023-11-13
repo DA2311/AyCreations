@@ -339,6 +339,15 @@ section {
         background-image: none;
         background-color: black;
     }
+
+    :root {
+        --h1-font: 2.5rem;
+        --h2-font: 2rem;
+    }
+
+    .contact h2 {
+        font-size: 3.5rem;
+    }
 }
 
 @media(max-width: 470px) {
@@ -346,6 +355,10 @@ section {
         background-image: none;
         background-color: black;
         text-align: justify;
+    }
+
+    .contact h2 {
+        font-size: 3.5rem;
     }
 
 
