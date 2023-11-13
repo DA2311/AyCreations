@@ -324,9 +324,16 @@ section {
     .main-content p {
         width: 100%;
     }
+    .hero {
+        background-color: black;
+    }
 }
 
 @media(max-width: 470px) {
+    .hero {
+        background-color: black;
+    }
+
     :root {
         --h1-font: 3rem;
         --h2-font: 2rem;
